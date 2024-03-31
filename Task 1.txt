@@ -1,0 +1,17 @@
+Difference between HTTP1.1 vs HTTP2?
+HTTP1.1
+#The client (browser) has to send a request to the server using the method (GET/POST).
+#Server responds with the requested resource, for example – image, alongside the status of what it did to the client’s request.
+#Keep in mind that this is not a one-time process. 
+#Such requests and responses needs to be transferred between both these machines until the client receives all the resources, essential to load a web page on the end-user’s (your) screen.
+
+HTTP2
+#Protocol negotiation mechanism — protocol electing, eg. HTTP/1.1, HTTP/2 or other.
+#High-level compatibility with HTTP/1.1 — methods, status codes, URIs and header fields.
+#Page load speed improvements trough:
+#Compression of request headers
+#Binary protocol
+#HTTP/2 Server Push
+#Request multiplexing over a single TCP connection
+#Request pipelining
+#HOL blocking (Head-of-line) — Package blocking
